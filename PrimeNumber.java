@@ -7,7 +7,7 @@ public class PrimeNumber {
         System.out.println("Enter a number: ");
         int a = s.nextInt();
         int i = 2;
-
+        int j = 3;
         if (a==1){
             System.out.println(a+" is neither Prime nor Composite!");
         }
@@ -21,7 +21,7 @@ public class PrimeNumber {
 
         }
 
-       else if (a%i!=0){
+       else if (a%j==0){
             System.out.println(a+" is not a Prime Number!");
 
         }
