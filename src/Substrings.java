@@ -25,7 +25,7 @@ public class Substrings {
 
         // To print all substrings of a given string
         for (int i = 0; i < strInput.length(); i++) {
-            for (int j = i; j < strInput.length() + 1; j++) {
+            for (int j = i + 1; j < strInput.length() + 1; j++) {
                 //System.out.println(i+", "+j);
                 System.out.println(strInput.substring(i, j));
             }
